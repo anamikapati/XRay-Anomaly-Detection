@@ -6,12 +6,14 @@ This project focuses on detecting anomalies in X-ray cargo images using a Siames
 
 ## 📁 Dataset
 
-Two sets of images were used for training and evaluation, hosted on Google Drive:
+Two datasets were used, hosted on Google Drive:
 
 - 🔴 **Positive (Anomalous) Samples**: [Download](https://drive.google.com/file/d/1NK1DWLMztROwRkJIlYAnexWLgyFv_gDF/view)
 - 🟢 **Negative (Normal) Samples**: [Download](https://drive.google.com/file/d/18QJyRNVDG6jguNmV04GRuZM98IGdizUb/view)
 
-All images are in `.png` format.
+Each dataset contains:
+- `.png` image files representing X-ray scans
+- `.json` metadata files associated with some images
 
 ---
 
