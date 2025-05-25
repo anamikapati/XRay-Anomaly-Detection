@@ -49,3 +49,30 @@ Images are preprocessed by resizing to 224x224 pixels, converting to RGB, and no
    ```bash
    git clone https://github.com/your-username/xray-anomaly-detection.git
    cd xray-anomaly-detection
+
+
+2. **Set Up Google Colab**:
+   - Upload the `xray-anomaly-detection.ipynb` notebook to Google Colab.
+   - Mount your Google Drive:
+     ```python
+     from google.colab import drive
+     drive.mount('/content/drive')
+## Results
+After training for 20 epochs with a batch size of 32 and a learning rate of 1e-4:
+- **Final Accuracy**: 94.00%
+- **Confusion Matrix** (Epoch 20):
+-       [[497   3]
+         [ 57 443]]
+- True Negatives (Dissimilar pairs correctly classified): 497
+- False Positives: 3
+- False Negatives: 57
+- True Positives (Similar pairs correctly classified): 443
+
+## Contact
+- Author: Anamika Pati
+- Email: anamika24300@iiitnr.edu.in
+- GitHub: [anamikapati](https://github.com/anamikapati)
+
+## Acknowledgments
+- Thanks to the PyTorch and Torchvision teams for providing excellent tools for deep learning.
+- The dataset used in this project is sourced from [mention dataset source if applicable].
