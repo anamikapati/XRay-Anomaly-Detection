@@ -37,10 +37,11 @@ The model architecture is based on a Siamese Network, as illustrated in the flow
 The dataset consists of X-ray images divided into two categories:
 - **Positive Samples**: X-ray images containing anomalies.
 - **Negative Samples**: X-ray images without anomalies.
+Two datasets were used and are available on Google Drive:
 
-The images are stored in the following directories on Google Drive:
-- Positive samples: `/content/drive/MyDrive/Minor Project/DvXray_Positive_Samples`
-- Negative samples: `/content/drive/MyDrive/Minor Project/DvXray_Negative_Samples`
+- **Positive (Anomalous) Samples**: [Download](https://drive.google.com/file/d/1NK1DWLMztROwRkJIlYAnexWLgyFv_gDF/view)
+- **Negative (Normal) Samples**: [Download](https://drive.google.com/file/d/18QJyRNVDG6jguNmV04GRuZM98IGdizUb/view)
+
 
 Images are preprocessed by resizing to 224x224 pixels, converting to RGB, and normalizing using ImageNet statistics.
 
